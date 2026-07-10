@@ -1,7 +1,7 @@
 from google import genai
 from google.genai import types
 
-from app.config import GEMINI_API_KEY,GEMINI_MODEL,SYSTEM_PROMPT
+from core.config import GEMINI_API_KEY,GEMINI_MODEL,SYSTEM_PROMPT
 
 client = genai.Client(api_key=GEMINI_API_KEY)
 

@@ -1,4 +1,4 @@
-from app.llm import ask_ai
+from core.llm import ask_ai
 
 print("Welcome,I'm your AI Chat Assistant")
 print("Write exit to finish the session")

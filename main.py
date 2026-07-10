@@ -1,4 +1,4 @@
-from app.chat import start_chat
+from core.chat import start_chat
 
 def main():
     start_chat()
